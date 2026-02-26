@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _incrementTap(CardType type) {
     setState(() {
-      _tapCounts[type] = _tapCounts[type]++;
+    _tapCounts[type] = _tapCounts[type]! + 1;
     });
   }
 
