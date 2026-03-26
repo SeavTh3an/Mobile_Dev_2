@@ -1,9 +1,7 @@
-import '../artist/artists.dart';
-
 class Song {
   final String id;
   final String title;
-  final Artists artistsid;
+  final String artistsid;
   final Duration duration;
   final Uri imageUrl;
 
