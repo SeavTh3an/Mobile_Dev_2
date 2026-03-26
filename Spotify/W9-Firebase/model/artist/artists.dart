@@ -2,12 +2,17 @@ class Artists {
   final String id;
   final String name;
   final String genre;
-  final String image;
+  final Uri image;
 
   Artists({
     required this.id,
     required this.name,
     required this.genre,
-    required this.image
+    required this.image,
   });
+  @override
+  String toString() {
+    return 'Artist(name: $name, genre: $genre)';
+  }
 }
+
